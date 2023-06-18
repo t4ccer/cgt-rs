@@ -72,7 +72,7 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     return real;
 }
 function __wbg_adapter_16(arg0, arg1, arg2) {
-    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h3ca45f7fc066ece9(arg0, arg1, addHeapObject(arg2));
+    wasm.wasm_bindgen__convert__closures__invoke1_mut__h4f74cc0fe63236bc(arg0, arg1, addHeapObject(arg2));
 }
 
 function __wbg_adapter_19(arg0, arg1) {
@@ -491,12 +491,12 @@ imports.wbg.__wbg_set_07da13cc24b69217 = function() { return handleError(functio
 imports.wbg.__wbindgen_throw = function(arg0, arg1) {
     throw new Error(getStringFromWasm0(arg0, arg1));
 };
-imports.wbg.__wbindgen_closure_wrapper156 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper158 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 29, __wbg_adapter_16);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper580 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 210, __wbg_adapter_19);
+imports.wbg.__wbindgen_closure_wrapper590 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 212, __wbg_adapter_19);
     return addHeapObject(ret);
 };
 
@@ -537,7 +537,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('cgt-website-957f9f69464820e0_bg.wasm', import.meta.url);
+        input = new URL('cgt-website-a8495021453a975f_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
