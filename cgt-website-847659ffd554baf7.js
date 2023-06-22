@@ -495,8 +495,8 @@ imports.wbg.__wbindgen_closure_wrapper158 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 29, __wbg_adapter_16);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper584 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 209, __wbg_adapter_19);
+imports.wbg.__wbindgen_closure_wrapper585 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 210, __wbg_adapter_19);
     return addHeapObject(ret);
 };
 
@@ -537,7 +537,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('cgt-website-e6dc87d536f6ef90_bg.wasm', import.meta.url);
+        input = new URL('cgt-website-847659ffd554baf7_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
