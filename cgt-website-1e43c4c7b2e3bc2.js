@@ -537,7 +537,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('cgt-website-847659ffd554baf7_bg.wasm', import.meta.url);
+        input = new URL('cgt-website-1e43c4c7b2e3bc2_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
