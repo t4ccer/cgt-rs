@@ -472,11 +472,11 @@ imports.wbg.__wbg_hash_afd040db1cf05017 = function() { return handleError(functi
     getInt32Memory0()[arg0 / 4 + 1] = len1;
     getInt32Memory0()[arg0 / 4 + 0] = ptr1;
 }, arguments) };
-imports.wbg.__wbindgen_closure_wrapper309 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper310 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 21, __wbg_adapter_14);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper336 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper337 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 21, __wbg_adapter_17);
     return addHeapObject(ret);
 };
@@ -518,7 +518,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('cgt-website-c6438fb609dedf9f_bg.wasm', import.meta.url);
+        input = new URL('cgt-website-fb2eb97b7bbc049b_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
